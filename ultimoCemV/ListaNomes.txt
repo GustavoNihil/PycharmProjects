@@ -1,0 +1,4 @@
+Debora;18
+Antonio;112
+Valdir;72
+Gustavo;19
