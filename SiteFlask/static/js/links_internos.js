@@ -1,7 +1,7 @@
 
 
 
-$('body a.sem-linha').click(function(e){
+$('a.sem-linha').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;
