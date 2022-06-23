@@ -93,6 +93,9 @@
         padding: 0px 5px;
         font-variant: small-caps;
     }
+    .sem-linha {
+        text-decoration: none;
+    }
     #novo {
         height: 9vh;
         padding-top: 1vh;
@@ -208,9 +211,9 @@
             <label id="texto7">- Friedrich Nietzsche, Gaia Ciência, aforismo 341.</label>
         </div>
     </main></abbr>
-    <div id="novo">Últimos textos
+    <a class="sem-linha" href="#novo"><div id="novo">Últimos textos
     <img src="../static/img/seta-baixo.png" alt="Seta para Baixo">
-    </div>
+    </div></a>
     <div id="teste">
         <a href="https://digressoesfilosoficas.herokuapp.com/evolucaocomopatologia">
             <h3 class="mashroom">A EVOLUÇÃO COMO</h3>
@@ -224,6 +227,9 @@
             Conteúdo integralmente desenvolvido por Gustavo Laperriere.
         </h2>
     </footer>
+    <!--Rolagem de links internos-->
+    <script type="text/javascript" src="rolagem_interna/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="rolagem_interna/links_internos.js"></script>
 </body>
 </html>
 

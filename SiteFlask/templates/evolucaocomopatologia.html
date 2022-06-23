@@ -64,23 +64,38 @@
             color: var(--cor00);
             max-width: 880px;
             margin: auto;
-            padding: 40px;
-            background-color: rgba(44, 44, 44, 0.85);
+            padding: 20px 40px 40px 40px;
+            background-color: rgba(44, 44, 44, 0.9);
             text-indent: 40px;
             text-align: justify;
         }
         main {
-            height: 56.5vh;
+            height: 50.5vh; /*6% para a seta*/
             max-width: 800px;
             margin: auto;
         }
+
+        #seta-baixo {
+            height: 6vh;
+            padding: 0px;
+            width: 80px;
+        }
+
+        #seta-baixo > img {
+            display: block;
+            height: 4vh;
+            margin: auto;
+            padding: 1vh;
+        }
+
+
         h1 {
             margin-top: 38vh;
             text-align: center;
             color: var(--cor00);
             max-width: 800px;
             padding: 10px;
-            background-color: rgba(44, 44, 44, 0.85);
+            background-color: rgba(44, 44, 44, 0.9);
         }
 
         div > p {
@@ -142,7 +157,10 @@
     <main>
         <h1>A EVOLUÇÃO COMO UMA PATOLOGIA</h1>
     </main>
-    <div>
+    <a href="#iniciotxt"><div id="seta-baixo">
+        <img src="../static/img/seta-baixo.png" alt="Seta para Baixo">
+    </div></a>
+    <div id="iniciotxt">
         <p>A priori, fundamento nesta análise as atribuições etimológicas de Pathos - como sentimento e afeto - e Lógos - como lógica, razão - ao constituínte de patologia, portanto, a lógica por trás dos afetos. Não abordando, por hora, o espectro semântico usual.</p>
         <p>Por uma ótica spinozista, a patologia seria então a formalização de um padrão para as atribuições de significado dos corpos aos afetos. Afetos, por sua vez, seriam o resultado qualitativo dado aos encontros entre corpos distintos. Estes encontros resultariam, então, em uma diminuição ou aumento da potência - de afetar e ser afetado - de cada um dos corpos (afecção). Um encontro que garantisse uma maior potência de afetar e ser afetado por outros corpos seria denominado como um afeto positivo. Por sua vez, um encontro que diminuísse as possibilidades de interagir com outros corpos teria a atribuição como um afeto negativo.</p>
         <p>Sob este arcabolço, a evolução, em seu sentido biológico, seria o efeito probabilístico do domínio de algorítimos bioquímicos (assim denomino os mecanismos de tomada de decisão fundamentados pela exclamação dos sentidos em organismos a posteriori de uma análise de dados ambientais - a interação entre os corpos -) que melhor perpetuassem o conatus - ímpeto de continuidade - em determinadas circunstâncias e ambiente. Os algoritimos bioquímicos, desta forma, baseariam-se nos significados designados aos afetos como métrica para a constituição de suas atuações com o meio exterior. Portanto é de responsabilidade do impeto evolutivo a determinação de afetos positivos àqueles que fortalecem o conatus, e negativos àqueles que fogem da norma supracitada.</p>
@@ -154,6 +172,9 @@
             Conteúdo integralmente desenvolvido por Gustavo Laperriere.
         </h2>
     </footer>
+    <!--Rolagem de links internos-->
+    <script type="text/javascript" src="rolagem_interna/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="rolagem_interna/links_internos.js"></script>
 
 </body>
 </html>

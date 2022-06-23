@@ -26,3 +26,8 @@ if __name__ == "__main__":
 
     # servidor do heroku
 
+
+# Notas:
+
+# Forçar push: "git push --force heroku master"
+
