@@ -1,5 +1,6 @@
 
 
+
 $('body a').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
@@ -7,8 +8,6 @@ $('body a').click(function(e){
     $('html, body').animate({
         scrollTop: targetOffset
     }, 1000);
-
-    console.log(targetOffset);
     
 });
 
